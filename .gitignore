@@ -1,0 +1,22 @@
+# Bağımlılıklar — asla commitlenmez
+node_modules/
+
+# Ortam
+.env
+.env.local
+.env.*.local
+
+# Derleme / çıktı
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+
+# Sistem
+.DS_Store
+
+# Log
+*.log
+npm-debug.log*
+pnpm-debug.log*
