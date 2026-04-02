@@ -7,7 +7,8 @@
     "dev:web": "pnpm build:shared && pnpm --filter web dev",
     "dev:api": "pnpm build:shared && pnpm --filter api dev",
     "build:web": "pnpm build:shared && pnpm --filter web build",
-    "build:api": "pnpm build:shared && pnpm --filter api build"
+    "build:api": "pnpm build:shared && pnpm --filter api build",
+    "test:api": "pnpm --filter api test"
   },
   "workspaces": [
     "web",

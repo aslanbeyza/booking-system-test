@@ -101,8 +101,12 @@ src/modules/bookings/
 - `src/modules/bookings/` — Rezervasyon domain’i (controller, service, DTO/Zod)
 - Yeni özellikler için `src/modules/<ad>/` altında yeni modül ekleyin; `AppModule` içine import edin.
 
-## Sonraki adımlar (rules.md)
+## Testler (rules.md §4.4)
 
-- (Tamam) Auth modülü + JWT + httpOnly çerez + `users` tablosu
-- (Tamam) `packages/shared` ile Zod şemaları web + API’de paylaşılıyor
-- Birim / entegrasyon testleri
+```bash
+cd api
+pnpm test
+# veya monorepo kökünden: pnpm test:api
+```
+
+- `src/modules/bookings/bookings.service.spec.ts` — müsait slot listesi, çift rezervasyon (`23505`), geçersiz slot.
