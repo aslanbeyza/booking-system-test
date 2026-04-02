@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+:root {
+  --font-avenir-arabic: "Avenir Arabic", Avenir, "Avenir Next", system-ui, sans-serif;
+}
+
