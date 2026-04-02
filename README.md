@@ -1,6 +1,8 @@
 # Booking task (monorepo)
 
 `rules.md` ile uyumlu tam yığın rezervasyon örneği: Next.js (App Router) + NestJS + PostgreSQL (Drizzle) + ortak Zod (`@booking/shared`).
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/73a8d973-cc22-460b-a13f-cc74f72de6f2" />
+
 
 ## Proje yapısı (`rules.md` §2)
 
