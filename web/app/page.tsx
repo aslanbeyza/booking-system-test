@@ -1,8 +1,10 @@
+import RequireAuth from "@/components/auth/RequireAuth";
 import { ConsultantCard } from "@/components/consultant";
 import { WorkshopInfoCard } from "@/components/workshop-info";
 
 export default function Home() {
   return (
+    <RequireAuth>
     <div className="flex flex-col gap-6 lg:flex-row lg:items-start">
         <div className="min-w-0 flex-[1.55]">
           <ConsultantCard
@@ -59,5 +61,6 @@ export default function Home() {
           </div>
         </div>
     </div>
+    </RequireAuth>
   );
 }

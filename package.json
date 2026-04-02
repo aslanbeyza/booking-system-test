@@ -1,0 +1,17 @@
+{
+  "name": "booking-task",
+  "private": true,
+  "packageManager": "pnpm@10.6.5",
+  "scripts": {
+    "build:shared": "pnpm --filter @booking/shared build",
+    "dev:web": "pnpm build:shared && pnpm --filter web dev",
+    "dev:api": "pnpm build:shared && pnpm --filter api dev",
+    "build:web": "pnpm build:shared && pnpm --filter web build",
+    "build:api": "pnpm build:shared && pnpm --filter api build"
+  },
+  "workspaces": [
+    "web",
+    "api",
+    "packages/*"
+  ]
+}

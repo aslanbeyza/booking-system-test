@@ -9,7 +9,8 @@ Frontend: Next.js (App Router), TypeScript, TailwindCSS
 Backend: NestJS (Node.js framework), TypeScript
 Validation: Zod (shared schemas for frontend/backend)
 Database: PostgreSQL via Drizzle ORM
-Design: Figma Design Link
+Design: Figma Design image 
+/Users/beyzaaslan/Desktop/booking-task/image.png
 2. Project Structure
 The project should be organized into a decoupled architecture:
 ●
