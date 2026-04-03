@@ -8,6 +8,12 @@ It is implemented as a monorepo with:
 - **Database**: PostgreSQL via Drizzle ORM
 - **Validation**: Shared Zod schemas published as `@booking/shared`
 
+###Images
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/f6b41950-f163-43a7-9ae4-4eaaa2a9225d" />
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/6196b928-97cd-4e59-91b6-a41c769d27a2" />
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/0594f1e2-2e16-48de-86ce-a4d816cca535" />
+
+
 ### Project structure
 
 | Spec (`rules.md`) | This repo |
